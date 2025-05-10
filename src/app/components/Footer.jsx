@@ -38,39 +38,43 @@ export default function Footer() {
     <footer className="bg-slate-900 text-white">
       <div className="container mx-auto px-4">
         {/* Main Footer */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 py-16 text-center items-center">
           {/* Organization Info */}
           <div>
-            <div className="flex items-center gap-2 mb-6">
-              <Link href="/" className="flex items-center gap-2">
+            <div className="flex flex-col items-center text-center">
+              <Link
+                href="/"
+                className="flex items-center gap-2 justify-center mb-6"
+              >
                 <FaHandHoldingHeart className="w-6 h-6 text-blue-500" />
                 <span className="text-2xl font-bold text-white">
                   Community Impact
                 </span>
               </Link>
-            </div>
-            <p className="text-slate-300 mb-6">
-              Creating lasting positive change in our communities through
-              education, support services, and sustainable development programs.
-            </p>
-            <div className="space-y-3">
-              <a
-                href="tel:1-800-COMMUNITY"
-                className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors"
-              >
-                <FaPhone className="w-5 h-5" />
-                <span>1-800-COMMUNITY</span>
-              </a>
-              <a
-                href="mailto:info@communityimpact.org"
-                className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors"
-              >
-                <FaEnvelope className="w-5 h-5" />
-                <span>info@communityimpact.org</span>
-              </a>
-              <div className="flex items-center gap-3 text-slate-300">
-                <FaMapMarkerAlt className="w-5 h-5" />
-                <span>123 Community Way, Austin, TX 78701</span>
+              <p className="text-slate-300 mb-6 text-center">
+                Creating lasting positive change in our communities through
+                education, support services, and sustainable development
+                programs.
+              </p>
+              <div className="space-y-3 text-center items-center w-full">
+                <a
+                  href="tel:1-800-COMMUNITY"
+                  className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors justify-center w-full"
+                >
+                  <FaPhone className="w-5 h-5" />
+                  <span>1-800-COMMUNITY</span>
+                </a>
+                <a
+                  href="mailto:info@communityimpact.org"
+                  className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors justify-center w-full"
+                >
+                  <FaEnvelope className="w-5 h-5" />
+                  <span>info@communityimpact.org</span>
+                </a>
+                <div className="flex items-center gap-3 text-slate-300 justify-center w-full">
+                  <FaMapMarkerAlt className="w-5 h-5" />
+                  <span>123 Community Way, Austin, TX 78701</span>
+                </div>
               </div>
             </div>
           </div>
@@ -134,7 +138,7 @@ export default function Footer() {
               © {new Date().getFullYear()} Community Impact. All rights
               reserved.
             </div>
-            <div className="flex gap-4">
+            <div className="flex gap-4 justify-center">
               <a
                 href="#"
                 className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-slate-700 transition-colors"
@@ -178,12 +182,12 @@ export default function Footer() {
           <div className="text-center mt-4 text-slate-300 text-sm">
             Website designed by{" "}
             <a
-              href="https://1116webdesign.com/"
+              href="https://www.williamhmoody.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-slate-200 transition-colors underline"
             >
-              11|16 Web Design
+              William Hellems-Moody
             </a>
           </div>
         </div>
