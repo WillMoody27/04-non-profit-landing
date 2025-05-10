@@ -41,37 +41,37 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 py-16 text-center items-center">
           {/* Organization Info */}
           <div>
-            <div className="flex flex-col items-center text-center">
+            <div className="flex flex-col items-center text-center md:items-start md:text-left">
               <Link
                 href="/"
-                className="flex items-center gap-2 justify-center mb-6"
+                className="flex items-center gap-2 justify-center md:justify-start mb-6"
               >
                 <FaHandHoldingHeart className="w-6 h-6 text-blue-500" />
                 <span className="text-2xl font-bold text-white">
                   Community Impact
                 </span>
               </Link>
-              <p className="text-slate-300 mb-6 text-center">
+              <p className="text-slate-300 mb-6 text-center md:justify-start justify-center md:text-left">
                 Creating lasting positive change in our communities through
                 education, support services, and sustainable development
                 programs.
               </p>
-              <div className="space-y-3 text-center items-center w-full">
+              <div className="space-y-3 text-center items-center w-full md:justify-start justify-center md:items-start md:text-left">
                 <a
                   href="tel:1-800-COMMUNITY"
-                  className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors justify-center w-full"
+                  className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors md:justify-start justify-center w-full"
                 >
                   <FaPhone className="w-5 h-5" />
                   <span>1-800-COMMUNITY</span>
                 </a>
                 <a
                   href="mailto:info@communityimpact.org"
-                  className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors justify-center w-full"
+                  className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors md:justify-start justify-center w-full"
                 >
                   <FaEnvelope className="w-5 h-5" />
                   <span>info@communityimpact.org</span>
                 </a>
-                <div className="flex items-center gap-3 text-slate-300 justify-center w-full">
+                <div className="flex items-center gap-3 text-slate-300 md:justify-start justify-center w-full">
                   <FaMapMarkerAlt className="w-5 h-5" />
                   <span>123 Community Way, Austin, TX 78701</span>
                 </div>
